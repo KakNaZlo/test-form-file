@@ -1,0 +1,111 @@
+/*media*/
+
+@media screen and (min-width: 1178px) {
+    .main-content {
+        max-width: 1920px;
+        background-size: contain;
+    }
+}
+
+@media screen and (width: 768px) {
+    .skills-checkbox-block {
+        max-width: 700px;
+        margin: 30px auto 0;
+    }
+
+    .my-slider {
+        margin: 0px 10px;
+    }
+
+    .js-block-items {
+        margin: 40px 15px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .header-nav-block {
+        text-align: right;
+    }
+
+    .header-nav-icon {
+        display: inline-block;
+        right: 10px;
+        margin: 10px;
+    }
+
+    .form-input,
+    .form-item {
+        max-width: 300px;
+        font-size: 14px;
+    }
+    .SumoSelect > .CaptionCont > span{
+        font-size:20px;
+    }
+    .select-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .SumoSelect {
+        background-position-x: 265px
+    }
+
+    .header-nav-links {
+        position: fixed;
+        display: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 52px;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        overflow: auto;
+        height: 100%;
+    }
+
+    .header-nav-item {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
+        background: #fff;
+        border-bottom: 1px solid #e5e5e5;
+        z-index: 1;
+    }
+
+    .skills-checkbox-block {
+        justify-content: center;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .check-col-one,
+    .check-col-two,
+    .check-col-three {
+        margin: 0;
+        width: 170px;
+    }
+
+    .start-item,
+    .last-item {
+        line-height: 1.5
+    }
+
+    .js-block-item::after {
+        content: none
+    }
+
+    .js-block-items {
+        margin: 40px 15px 0;
+    }
+
+    .my-slider {
+        margin: 50px 15px;
+    }
+}
